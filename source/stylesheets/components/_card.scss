@@ -1,18 +1,17 @@
 /* Card design */
-.card img {
-  width: 100px;
-  margin-bottom: -20px;
-}
-
-.card h3 {
+.card {
+  img {
+    width: 100px;
+    margin-bottom: -20px;
+  }
+  h3 {
   font-size: 20px;
   font-weight: bold;
-}
-
-.card p {
+  }
+  p {
   font-size: 16px;
+  }
 }
-
 .card-listing {
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -20,12 +19,13 @@
   color: white;
   position: relative;
   border-radius: 10px;
+  .avatar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
 }
-.card-listing .avatar {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
+
 .card-user {
   position: absolute;
   right: 10px;
@@ -58,7 +58,8 @@
   z-index:2;
   background: black;
   opacity: 0;
+  &:hover {
+    opacity: 0.1;
+  }
 }
-.card-link:hover{
-  opacity: 0.1;
-}
+
