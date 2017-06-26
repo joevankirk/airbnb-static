@@ -1,19 +1,27 @@
 seb:
+  name: Sebastien Saunier
   location: Paris, France
   title: Seb's home
   description: Room with a view
   avatar: seb.jpg
   image: card-paris.jpeg
+  wifi: true
+  rating: 4
 anne:
+  name: Anne Janssen
   location: Brussels, Belgium
   title: Anne's home
   description: Lovely house
   avatar: anne.jpg
   image: card-brussels.jpeg
+  wifi: true
+  rating: 5
 romain:
+  name: Romain Paillard
   location: London, UK
   title: Romain's home
   description: Nice flat in Piccadilly
   avatar: romain.jpg
   image: card-london.jpeg
-
+  wifi: false
+  rating: 1
